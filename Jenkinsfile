@@ -3,7 +3,7 @@
      git 'https://github.com/javahometech/my-app'
    }
    stage('Compile-Package'){
-      sh "mvn package"
+      sh "echo HelloWorld!!"
    }
    stage('Email Notification'){
       mail bcc: '', body: '''Hi Welcome to jenkins email alerts
